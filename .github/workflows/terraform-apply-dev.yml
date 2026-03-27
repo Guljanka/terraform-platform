@@ -17,7 +17,6 @@ permissions:
 jobs:
   apply-dev:
     runs-on: ubuntu-latest
-    environment: dev
 
     steps:
       - name: Checkout
