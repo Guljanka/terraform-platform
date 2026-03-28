@@ -186,7 +186,7 @@ module "app_table" {
 module "app_secret" {
   source = "../../modules/secrets"
 
-  name          = "${local.name_prefix}/app/config"
+  name          = "${local.name_prefix}/app/config-v2"
   description   = "Application config secret"
   secret_string = var.app_secret_json
   common_tags   = local.common_tags
