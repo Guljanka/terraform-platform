@@ -1,4 +1,4 @@
-bucket         = "aisalkyn-terraform-state-12345"
+bucket         = "gulzhan-terraform-state-2026"
 key            = "terraform-platform/stage/terraform.tfstate"
 region         = "us-east-2"
 encrypt        = true
